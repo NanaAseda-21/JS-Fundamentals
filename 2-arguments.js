@@ -1,9 +1,9 @@
-let numberArgument = 4;
+const args = process.argv.slice(2); // Get command-line arguments
 
-if (numberArgument ===0){
+if (args.length === 0) {
   console.log("No argument");
-}else if(numberArgument === 1){
+} else if (args.length === 1) {
   console.log("Argument found");
-}else{
+} else {
   console.log("Arguments found");
 }
