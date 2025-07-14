@@ -1,9 +1,9 @@
-const args = process.argv.slice(0); // Removes the first two elements 
+let numberArgument = 4;
 
-if (args.length === 0) {
-  console.log('No argument');
-} else if (args.length === 1) {
-  console.log('Argument found');
-} else {
-  console.log('Arguments found');
+if (numberArgument ===0){
+  console.log("No argument");
+}else if(numberArgument === 1){
+  console.log("Argument found");
+}else{
+  console.log("Arguments found");
 }
